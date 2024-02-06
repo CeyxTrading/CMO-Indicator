@@ -1,4 +1,14 @@
 # CMO-Indicator
+
+Requirements:
+numpy
+pandas
+requests
+lxml
+pandas_ta
+backtesting==0.3.3
+bokeh==2.4.3
+
 The Chande Momentum Indicator (CMO) is a technical analysis tool created by Tushar Chande to gauge the momentum of a security's price. Diverging from other momentum indicators such as the Relative Strength Index (RSI), the CMO considers both upward and downward price movements in its calculation, resulting in a more comprehensive assessment of price momentum.
 
 With a range oscillating between -100 and +100, the CMO offers insights into potential overbought and oversold conditions. Typically, readings surpassing +50 suggest overbought circumstances, hinting at a potential price decline. Conversely, readings below -50 indicate oversold conditions, suggesting a potential price increase. Traders often combine the CMO with other indicators to enhance the robustness of their trading signals.
